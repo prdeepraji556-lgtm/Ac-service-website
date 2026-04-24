@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -8,62 +8,98 @@
 <style>
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fa;
 }
 
+/* Header */
 header {
-    background: #007BFF;
+    background: linear-gradient(135deg, #007BFF, #00c6ff);
     color: white;
-    padding: 20px;
+    padding: 40px 20px;
     text-align: center;
 }
 
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Section */
 section {
-    padding: 20px;
+    padding: 30px 15px;
     text-align: center;
 }
 
+/* Services */
 .services {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+/* Card */
 .card {
-    background: #f4f4f4;
-    margin: 10px;
-    padding: 15px;
-    border-radius: 10px;
-    width: 250px;
+    background: white;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+    width: 260px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
 }
 
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Price */
 .price {
-    color: green;
+    color: #28a745;
     font-weight: bold;
+    font-size: 18px;
     margin-top: 10px;
 }
 
+/* Buttons */
 button {
-    padding: 12px;
+    padding: 12px 20px;
     margin: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 30px;
     color: white;
     cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
 }
 
 .call-btn {
-    background: green;
+    background: #28a745;
+}
+
+.call-btn:hover {
+    background: #218838;
 }
 
 .whatsapp-btn {
     background: #25D366;
 }
 
+.whatsapp-btn:hover {
+    background: #1ebe5d;
+}
+
+/* Footer */
 footer {
-    background: #222;
+    background: #111;
     color: white;
-    padding: 10px;
+    padding: 15px;
+    margin-top: 20px;
 }
 </style>
 </head>
